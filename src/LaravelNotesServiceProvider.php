@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Icodesutff\LaravelNotes;
+namespace Icodestuff\LaravelNotes;
 
 use Arcanedev\Support\Providers\PackageServiceProvider;
 
