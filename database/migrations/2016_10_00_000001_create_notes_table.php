@@ -2,16 +2,10 @@
 
 declare(strict_types=1);
 
-use Arcanedev\LaravelNotes\Database\Migration;
+use Icodestuff\LaravelNotes\Database\Migration;
 use Illuminate\Database\Schema\Blueprint;
 
-/**
- * Class     CreateDiscussionsTable
- *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
- *
- * @see \Arcanedev\LaravelNotes\Models\Note
- */
+
 return new class extends Migration
 {
     /* -----------------------------------------------------------------

@@ -2,14 +2,10 @@
 
 declare(strict_types=1);
 
-use Arcanedev\LaravelNotes\Database\Migration;
+use Icodesutff\LaravelNotes\Database\Migration;
 use Illuminate\Database\Schema\Blueprint;
 
-/**
- * Class     CreateUsersTable
- *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
- */
+
 class CreateUsersTable extends Migration
 {
     /* -----------------------------------------------------------------

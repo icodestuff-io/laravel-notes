@@ -2,13 +2,8 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\LaravelNotes\Tests\Stubs\Models;
+namespace Icodesutff\LaravelNotes\Tests\Stubs\Models;
 
-/**
- * Class     UserWithAuthorId
- *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
- */
 class UserWithAuthorId extends User
 {
     /**

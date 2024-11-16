@@ -2,14 +2,10 @@
 
 declare(strict_types=1);
 
-use Arcanedev\LaravelNotes\Database\Migration;
+use Icodesutff\LaravelNotes\Database\Migration;
 use Illuminate\Database\Schema\Blueprint;
 
-/**
- * Class     CreatePostsTable
- *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
- */
+
 class CreatePostsTable extends Migration
 {
     /* -----------------------------------------------------------------

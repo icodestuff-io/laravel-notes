@@ -2,18 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\LaravelNotes\Tests\Models;
+namespace Icodesutff\LaravelNotes\Tests\Models;
 
-use Arcanedev\LaravelNotes\Models\Note;
-use Arcanedev\LaravelNotes\Tests\Stubs\Factories\{PostFactory, UserFactory, UserWithAuthorIdFactory};
-use Arcanedev\LaravelNotes\Tests\Stubs\Models\User;
-use Arcanedev\LaravelNotes\Tests\TestCase;
+use Icodesutff\LaravelNotes\Models\Note;
+use Icodesutff\LaravelNotes\Tests\Stubs\Factories\{PostFactory, UserFactory, UserWithAuthorIdFactory};
+use Icodesutff\LaravelNotes\Tests\Stubs\Models\User;
+use Icodesutff\LaravelNotes\Tests\TestCase;
 
-/**
- * Class     NoteTest
- *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
- */
+
 class NoteTest extends TestCase
 {
     /* -----------------------------------------------------------------
@@ -204,7 +200,7 @@ class NoteTest extends TestCase
     /**
      * Create a post.
      *
-     * @return \Arcanedev\LaravelNotes\Tests\Stubs\Models\Post|mixed
+     * @return \Icodesutff\LaravelNotes\Tests\Stubs\Models\Post|mixed
      */
     protected static function createPost()
     {
@@ -214,7 +210,7 @@ class NoteTest extends TestCase
     /**
      * Create a user.
      *
-     * @return \Arcanedev\LaravelNotes\Tests\Stubs\Models\User|mixed
+     * @return \Icodesutff\LaravelNotes\Tests\Stubs\Models\User|mixed
      */
     protected static function createUser()
     {
@@ -224,7 +220,7 @@ class NoteTest extends TestCase
     /**
      * Create a user with author id associated.
      *
-     * @return \Arcanedev\LaravelNotes\Tests\Stubs\Models\UserWithAuthorId|mixed
+     * @return \Icodesutff\LaravelNotes\Tests\Stubs\Models\UserWithAuthorId|mixed
      */
     protected static function createUserWithAuthorId()
     {

@@ -25,7 +25,7 @@ return [
 
     'notes' => [
         'table' => 'notes',
-        'model' => Arcanedev\LaravelNotes\Models\Note::class
+        'model' => Icodestuff\LaravelNotes\Models\Note::class
     ],
 
 ];

@@ -2,16 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\LaravelNotes\Tests;
+namespace Icodesutff\LaravelNotes\Tests;
 
-use Arcanedev\LaravelNotes\Tests\Stubs\Models\User;
+use Icodesutff\LaravelNotes\Tests\Stubs\Models\User;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 
-/**
- * Class     TestCase
- *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
- */
+
 abstract class TestCase extends BaseTestCase
 {
     /* -----------------------------------------------------------------
@@ -36,7 +32,7 @@ abstract class TestCase extends BaseTestCase
     protected function getPackageProviders($app): array
     {
         return [
-            \Arcanedev\LaravelNotes\LaravelNotesServiceProvider::class,
+            \Icodesutff\LaravelNotes\LaravelNotesServiceProvider::class,
         ];
     }
 

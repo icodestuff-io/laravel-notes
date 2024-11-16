@@ -2,13 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\LaravelNotes;
+namespace Icodestuff\LaravelNotes;
 
-/**
- * Class     LaravelNotes
- *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
- */
+
 class LaravelNotes
 {
     /* -----------------------------------------------------------------

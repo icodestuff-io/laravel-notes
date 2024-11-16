@@ -2,18 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\LaravelNotes\Traits;
+namespace Icodestuff\LaravelNotes\Traits;
 
-use Arcanedev\LaravelNotes\Models\Note;
+use Icodestuff\LaravelNotes\Models\Note;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
-/**
- * Trait     AuthoredNotes
- *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
- *
- * @property  \Illuminate\Database\Eloquent\Collection  authoredNotes
- */
+
 trait AuthoredNotes
 {
     /* -----------------------------------------------------------------

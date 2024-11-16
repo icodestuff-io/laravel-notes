@@ -2,16 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\LaravelNotes\Models;
+namespace Icodestuff\LaravelNotes\Models;
 
 use Arcanedev\Support\Database\PrefixedModel;
 use Illuminate\Support\Arr;
 
 /**
- * Class     Note
- *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
- *
  * @property  int                                  $id
  * @property  string                               $content
  * @property  int                                  $noteable_id

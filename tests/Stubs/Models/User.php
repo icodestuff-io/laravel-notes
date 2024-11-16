@@ -2,17 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\LaravelNotes\Tests\Stubs\Models;
+namespace Icodesutff\LaravelNotes\Tests\Stubs\Models;
 
-use Arcanedev\LaravelNotes\Traits\{AuthoredNotes, HasManyNotes};
+use Icodesutff\LaravelNotes\Traits\{AuthoredNotes, HasManyNotes};
 use Arcanedev\Support\Database\PrefixedModel;
 use Illuminate\Support\Arr;
 
 /**
- * Class     User
- *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
- *
  * @property  int  id
  */
 class User extends PrefixedModel

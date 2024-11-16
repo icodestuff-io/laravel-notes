@@ -2,17 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\LaravelNotes\Traits;
+namespace Icodestuff\LaravelNotes\Traits;
 
 use Illuminate\Database\Eloquent\Model;
 
-/**
- * Trait     HasOneNote
- *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
- *
- * @property  \Arcanedev\LaravelNotes\Models\Note  note
- */
+
 trait HasOneNote
 {
     /* -----------------------------------------------------------------
@@ -42,14 +36,14 @@ trait HasOneNote
      * @param  \Illuminate\Database\Eloquent\Model|null  $author
      * @param  bool                                      $reload
      *
-     * @return \Arcanedev\LaravelNotes\Models\Note
+     * @return \Icodesutff\LaravelNotes\Models\Note
      */
     public function createNote($content, $author = null, $reload = true)
     {
         if ($this->note)
             $this->note->delete();
 
-        /** @var \Arcanedev\LaravelNotes\Models\Note $note */
+        /** @var \Icodesutff\LaravelNotes\Models\Note $note */
         $note = $this->note()->create(
             $this->prepareNoteAttributes($content, $author)
         );

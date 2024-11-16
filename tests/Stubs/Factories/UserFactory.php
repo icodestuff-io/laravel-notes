@@ -2,16 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\LaravelNotes\Tests\Stubs\Factories;
+namespace Icodesutff\LaravelNotes\Tests\Stubs\Factories;
 
-use Arcanedev\LaravelNotes\Tests\Stubs\Models\User;
+use Icodesutff\LaravelNotes\Tests\Stubs\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-/**
- * Class     UserFactory
- *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
- */
+
 class UserFactory extends Factory
 {
     /* -----------------------------------------------------------------

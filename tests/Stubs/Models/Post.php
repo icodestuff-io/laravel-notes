@@ -2,17 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\LaravelNotes\Tests\Stubs\Models;
+namespace Icodesutff\LaravelNotes\Tests\Stubs\Models;
 
-use Arcanedev\LaravelNotes\Traits\HasOneNote;
+use Icodesutff\LaravelNotes\Traits\HasOneNote;
 use Arcanedev\Support\Database\PrefixedModel;
 use Illuminate\Support\Arr;
 
 /**
- * Class     Post
- *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
- *
  * @property  int     id
  * @property  string  title
  * @property  string  content

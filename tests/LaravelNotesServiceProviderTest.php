@@ -2,15 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\LaravelNotes\Tests;
+namespace Icodesutff\LaravelNotes\Tests;
 
-use Arcanedev\LaravelNotes\LaravelNotesServiceProvider;
+use Icodesutff\LaravelNotes\LaravelNotesServiceProvider;
 
-/**
- * Class     LaravelNotesServiceProviderTest
- *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
- */
+
 class LaravelNotesServiceProviderTest extends TestCase
 {
     /* -----------------------------------------------------------------
@@ -18,7 +14,7 @@ class LaravelNotesServiceProviderTest extends TestCase
      | -----------------------------------------------------------------
      */
 
-    /** @var  \Arcanedev\LaravelNotes\LaravelNotesServiceProvider */
+    /** @var  \Icodesutff\LaravelNotes\LaravelNotesServiceProvider */
     protected $provider;
 
     /* -----------------------------------------------------------------

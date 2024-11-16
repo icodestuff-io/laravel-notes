@@ -2,15 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\LaravelNotes;
+namespace Icodesutff\LaravelNotes;
 
-use Arcanedev\Support\Providers\PackageServiceProvider;
+use Icodesutff\Support\Providers\PackageServiceProvider;
 
-/**
- * Class     LaravelNotesServiceProvider
- *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
- */
+
 class LaravelNotesServiceProvider extends PackageServiceProvider
 {
     /* -----------------------------------------------------------------

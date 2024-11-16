@@ -2,16 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\LaravelNotes\Tests\Stubs\Factories;
+namespace Icodesutff\LaravelNotes\Tests\Stubs\Factories;
 
-use Arcanedev\LaravelNotes\Tests\Stubs\Models\Post;
+use Icodesutff\LaravelNotes\Tests\Stubs\Models\Post;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-/**
- * Class     PostFactory
- *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
- */
+
 class PostFactory extends Factory
 {
     /* -----------------------------------------------------------------

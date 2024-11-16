@@ -2,16 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\LaravelNotes\Traits;
+namespace Icodesutff\LaravelNotes\Traits;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 
 /**
- * Class     HasManyNotes
- *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
- *
  * @property  \Illuminate\Database\Eloquent\Collection  notes
  */
 trait HasManyNotes
@@ -43,11 +39,11 @@ trait HasManyNotes
      * @param  \Illuminate\Database\Eloquent\Model|null  $author
      * @param  bool                                      $reload
      *
-     * @return \Arcanedev\LaravelNotes\Models\Note
+     * @return \Icodesutff\LaravelNotes\Models\Note
      */
     public function createNote($content, $author = null, $reload = true)
     {
-        /** @var \Arcanedev\LaravelNotes\Models\Note $note */
+        /** @var \Icodesutff\LaravelNotes\Models\Note $note */
         $note = $this->notes()->create(
             $this->prepareNoteAttributes($content, $author)
         );
