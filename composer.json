@@ -1,13 +1,18 @@
 {
-    "name":        "arcanedev/laravel-notes",
+    "name":        "icodestuff/laravel-notes",
     "description": "Provides the ability to add notes to your Eloquent models in Laravel.",
-    "keywords":    ["arcanedev", "laravel", "notes", "noteable"],
+    "keywords":    ["icodestuff", "laravel", "notes", "noteable"],
     "homepage":    "https://github.com/ARCANEDEV/LaravelNotes",
     "authors": [
         {
             "name":     "ARCANEDEV",
             "email":    "arcanedev.maroc@gmail.com",
             "homepage": "https://github.com/arcanedev-maroc",
+            "role":     "Developer"
+        },
+        {
+            "name":     "Solomon Antoine",
+            "email":    "solomon@icodestuff.io",
             "role":     "Developer"
         }
     ],
