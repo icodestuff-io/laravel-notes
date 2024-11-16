@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Icodesutff\LaravelNotes;
 
-use Icodesutff\Support\Providers\PackageServiceProvider;
+use Arcanedev\Support\Providers\PackageServiceProvider;
 
 
 class LaravelNotesServiceProvider extends PackageServiceProvider
