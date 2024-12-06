@@ -36,14 +36,14 @@ trait HasOneNote
      * @param  \Illuminate\Database\Eloquent\Model|null  $author
      * @param  bool                                      $reload
      *
-     * @return \Icodesutff\LaravelNotes\Models\Note
+     * @return \Icodestuff\LaravelNotes\Models\Note
      */
     public function createNote($content, $author = null, $reload = true)
     {
         if ($this->note)
             $this->note->delete();
 
-        /** @var \Icodesutff\LaravelNotes\Models\Note $note */
+        /** @var \Icodestuff\LaravelNotes\Models\Note $note */
         $note = $this->note()->create(
             $this->prepareNoteAttributes($content, $author)
         );

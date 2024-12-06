@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Icodesutff\LaravelNotes\Tests\Stubs\Models;
+namespace Icodestuff\LaravelNotes\Tests\Stubs\Models;
 
-use Icodesutff\LaravelNotes\Traits\{AuthoredNotes, HasManyNotes};
+use Icodestuff\LaravelNotes\Traits\{AuthoredNotes, HasManyNotes};
 use Arcanedev\Support\Database\PrefixedModel;
 use Illuminate\Support\Arr;
 

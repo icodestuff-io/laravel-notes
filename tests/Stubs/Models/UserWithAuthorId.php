@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Icodesutff\LaravelNotes\Tests\Stubs\Models;
+namespace Icodestuff\LaravelNotes\Tests\Stubs\Models;
 
 class UserWithAuthorId extends User
 {

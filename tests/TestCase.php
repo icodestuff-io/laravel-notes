@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Icodesutff\LaravelNotes\Tests;
+namespace Icodestuff\LaravelNotes\Tests;
 
-use Icodesutff\LaravelNotes\Tests\Stubs\Models\User;
+use Icodestuff\LaravelNotes\Tests\Stubs\Models\User;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 
 
@@ -32,7 +32,7 @@ abstract class TestCase extends BaseTestCase
     protected function getPackageProviders($app): array
     {
         return [
-            \Icodesutff\LaravelNotes\LaravelNotesServiceProvider::class,
+            \Icodestuff\LaravelNotes\LaravelNotesServiceProvider::class,
         ];
     }
 

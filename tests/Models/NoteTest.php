@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Icodesutff\LaravelNotes\Tests\Models;
+namespace Icodestuff\LaravelNotes\Tests\Models;
 
-use Icodesutff\LaravelNotes\Models\Note;
-use Icodesutff\LaravelNotes\Tests\Stubs\Factories\{PostFactory, UserFactory, UserWithAuthorIdFactory};
-use Icodesutff\LaravelNotes\Tests\Stubs\Models\User;
-use Icodesutff\LaravelNotes\Tests\TestCase;
+use Icodestuff\LaravelNotes\Models\Note;
+use Icodestuff\LaravelNotes\Tests\Stubs\Factories\{PostFactory, UserFactory, UserWithAuthorIdFactory};
+use Icodestuff\LaravelNotes\Tests\Stubs\Models\User;
+use Icodestuff\LaravelNotes\Tests\TestCase;
 
 
 class NoteTest extends TestCase
@@ -200,7 +200,7 @@ class NoteTest extends TestCase
     /**
      * Create a post.
      *
-     * @return \Icodesutff\LaravelNotes\Tests\Stubs\Models\Post|mixed
+     * @return \Icodestuff\LaravelNotes\Tests\Stubs\Models\Post|mixed
      */
     protected static function createPost()
     {
@@ -210,7 +210,7 @@ class NoteTest extends TestCase
     /**
      * Create a user.
      *
-     * @return \Icodesutff\LaravelNotes\Tests\Stubs\Models\User|mixed
+     * @return \Icodestuff\LaravelNotes\Tests\Stubs\Models\User|mixed
      */
     protected static function createUser()
     {
@@ -220,7 +220,7 @@ class NoteTest extends TestCase
     /**
      * Create a user with author id associated.
      *
-     * @return \Icodesutff\LaravelNotes\Tests\Stubs\Models\UserWithAuthorId|mixed
+     * @return \Icodestuff\LaravelNotes\Tests\Stubs\Models\UserWithAuthorId|mixed
      */
     protected static function createUserWithAuthorId()
     {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Icodesutff\LaravelNotes\Traits;
+namespace Icodestuff\LaravelNotes\Traits;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
@@ -39,11 +39,11 @@ trait HasManyNotes
      * @param  \Illuminate\Database\Eloquent\Model|null  $author
      * @param  bool                                      $reload
      *
-     * @return \Icodesutff\LaravelNotes\Models\Note
+     * @return \Icodestuff\LaravelNotes\Models\Note
      */
     public function createNote($content, $author = null, $reload = true)
     {
-        /** @var \Icodesutff\LaravelNotes\Models\Note $note */
+        /** @var \Icodestuff\LaravelNotes\Models\Note $note */
         $note = $this->notes()->create(
             $this->prepareNoteAttributes($content, $author)
         );

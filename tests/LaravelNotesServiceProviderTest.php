@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Icodesutff\LaravelNotes\Tests;
+namespace Icodestuff\LaravelNotes\Tests;
 
-use Icodesutff\LaravelNotes\LaravelNotesServiceProvider;
+use Icodestuff\LaravelNotes\LaravelNotesServiceProvider;
 
 
 class LaravelNotesServiceProviderTest extends TestCase
@@ -14,7 +14,7 @@ class LaravelNotesServiceProviderTest extends TestCase
      | -----------------------------------------------------------------
      */
 
-    /** @var  \Icodesutff\LaravelNotes\LaravelNotesServiceProvider */
+    /** @var  \Icodestuff\LaravelNotes\LaravelNotesServiceProvider */
     protected $provider;
 
     /* -----------------------------------------------------------------

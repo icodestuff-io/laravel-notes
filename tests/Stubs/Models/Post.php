@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Icodesutff\LaravelNotes\Tests\Stubs\Models;
+namespace Icodestuff\LaravelNotes\Tests\Stubs\Models;
 
-use Icodesutff\LaravelNotes\Traits\HasOneNote;
+use Icodestuff\LaravelNotes\Traits\HasOneNote;
 use Arcanedev\Support\Database\PrefixedModel;
 use Illuminate\Support\Arr;
 
